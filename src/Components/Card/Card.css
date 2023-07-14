@@ -1,20 +1,21 @@
-
-.Card:hover{
-    transition: all 0.2s;
+@media (max-width:990px){
+    .Card{
+        width: 500px;
+    }
 }
+
 .Card{
     height: 100%;
-    width: 300px;
     margin: 10px;
     color: black;
     background-color: white;
     border-radius: 15px;
     font-weight: 500px;
+    padding: 15px;
 }
 .Plan-name{
     opacity: 0.5;
-    margin: 2px;
-    padding: 5px;
+    margin: 8px;
     font-size: 1em;
 }
 .price{
@@ -25,7 +26,7 @@
     font-size: 11px;
 }
 hr{
-    width: 85%;
+    margin: 20px 0;
 }
 .not-available{
     opacity: 0.5;
@@ -35,6 +36,7 @@ hr{
     line-break: auto;
     margin: 10px;
     padding-left: 20px;
+    font-weight: 400;
 }
 .button{
     height: 40px;
@@ -42,6 +44,7 @@ hr{
     width: 80%;
     background-color:aqua;
     border: none;
+    margin: 10px;
 }
 li {
     margin-bottom: 1em;

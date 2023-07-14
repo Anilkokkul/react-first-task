@@ -13,17 +13,16 @@ const Card = (props)=> {
             <ol className="list">
             {
                 props.plan.available.map((item, index) => {
-                    return <li className={`available item-${index}`}><FaCheck/> {item}</li>
+                    return <li className={`available item-${index}`}><FaCheck/> <span><b>{item.highlighted}</b></span><span>{item.normal}</span></li>
                 })
             }
             {
                 props.plan.notavailable.map((item) => {
-                    return <li className="not-available"><FaTimes/> {item}</li>
+                    return <li className="not-available"><FaTimes/><span><b>{item.highlighted}</b></span><span> {item.normal}</span></li>
                 })
             }
             </ol>
             <button className="button" type="submit">BUTTON</button>
-            <List List ={props.plan} />
             {/* <div className="available" >{props.plan.available}</div> */}
             {/* <div className="notAvailable">{props.plan.notAvaiable}</div> */}
         </div>
