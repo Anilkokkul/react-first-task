@@ -1,0 +1,48 @@
+
+.Card:hover{
+    transition: all 0.2s;
+}
+.Card{
+    height: 100%;
+    width: 300px;
+    margin: 10px;
+    color: black;
+    background-color: white;
+    border-radius: 15px;
+    font-weight: 500px;
+}
+.Plan-name{
+    opacity: 0.5;
+    margin: 2px;
+    padding: 5px;
+    font-size: 1em;
+}
+.price{
+    font-size: 2em;
+    margin: 0;
+}
+.period{
+    font-size: 11px;
+}
+hr{
+    width: 85%;
+}
+.not-available{
+    opacity: 0.5;
+}
+.list{
+    line-height: 20px;
+    line-break: auto;
+    margin: 10px;
+    padding-left: 20px;
+}
+.button{
+    height: 40px;
+    border-radius: 30px;
+    width: 80%;
+    background-color:aqua;
+    border: none;
+}
+li {
+    margin-bottom: 1em;
+}

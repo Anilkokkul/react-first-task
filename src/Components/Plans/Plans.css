@@ -1,0 +1,13 @@
+@media (max-width:990px){
+    .Plans-list{
+        flex-direction: column;
+    }
+}
+
+.Plans-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: aqua;
+}
