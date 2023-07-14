@@ -6,14 +6,14 @@ import { FaTimes } from "react-icons/fa";
 
 const Card = (props)=> {
     return(
-        <div className="Card">
+        <div className={`Card ${props.plan.name}`}>
             <h1 className="Plan-name">{props.plan.name}</h1>
             <h6 className="price">{props.plan.price}<span className="period">/month</span></h6>
             <hr/>
             <ol className="list">
             {
-                props.plan.available.map((item) => {
-                    return <li className="available"><FaCheck/> {item}</li>
+                props.plan.available.map((item, index) => {
+                    return <li className={`available item-${index}`}><FaCheck/> {item}</li>
                 })
             }
             {

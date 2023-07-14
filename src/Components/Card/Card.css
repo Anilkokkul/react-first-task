@@ -46,3 +46,9 @@ hr{
 li {
     margin-bottom: 1em;
 }
+.PLUS >.list> .item-0{
+    font-weight: 700;
+}
+.PRO >.list> .item-0{
+    font-weight: 700;
+}

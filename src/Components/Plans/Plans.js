@@ -27,9 +27,8 @@ const Plans= () =>{
     <div>
       <div className="Plans-list">
       {
-      Plans.map((plan)=>
-         {return <Card plan={plan}/>
-         
+      Plans.map((plan,index)=>
+         {return <Card plan={plan} key={index}/>    
 })
       }
       </div>
